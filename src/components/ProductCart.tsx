@@ -6,7 +6,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Image from "next/image";
 import React from "react";
 
-interface additonProduct {
+export interface additonProduct {
   id: string;
   img: string;
   name: string;
