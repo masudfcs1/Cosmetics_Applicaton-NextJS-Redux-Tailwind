@@ -24,7 +24,7 @@ const NavBar = () => {
           <div className=" relative cursor-pointer">
             <AiOutlineShoppingCart className=" text-[23px]" />
             <div className="absolute top-[-10px]  bg-red-600 rounded-full justify-center w-[22px] h-[22px] right-[-10px] text-[15px] text-center grid place-items-center  ">
-              3
+              0
             </div>
           </div>
           <BsSearch className="text-[20px]" />
