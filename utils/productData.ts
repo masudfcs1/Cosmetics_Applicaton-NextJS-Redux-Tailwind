@@ -13,7 +13,7 @@ export default [
     img: "/2.jpg",
     name: "laura-chouette",
     price: 235,
-    category: ["lipsticks"],
+    category: ["nail & wax"],
     sale: false,
   },
   {
@@ -50,7 +50,7 @@ export default [
   },
   {
     id: 7,
-    img: "/27.jpg",
+    img: "/38.jpg",
     name: "rob-graph",
     price: 212,
     category: ["makeup", "nail & wax"],
@@ -82,7 +82,7 @@ export default [
   },
   {
     id: 11,
-    img: "/11.jpg",
+    img: "/53.jpg",
     name: "rob-graph",
     price: 212,
     category: ["lipsticks", "skin care"],
