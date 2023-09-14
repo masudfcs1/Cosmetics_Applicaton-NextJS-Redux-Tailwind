@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className=" bg-slate-400 py-4 sticky top-0 z-10 ">
       <div className=" container flex justify-between items-center">
-        <RxHamburgerMenu className=" cursor-pointer text-[26px]" />
+        <RxHamburgerMenu className=" cursor-pointer text-[26px] hidden" />
         <Link href="/" className=" text-2xl font-semibold hover:text-accent">
           Shamu
         </Link>

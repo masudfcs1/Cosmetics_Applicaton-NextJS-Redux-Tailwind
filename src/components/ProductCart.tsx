@@ -5,6 +5,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 export interface additonProduct {
   id: string;
@@ -96,8 +97,13 @@ const ProductCart = ({
     }
   };
 
+  const router = useRouter();
+
   return (
-    <div className=" group cursor-pointer">
+    <div
+      className=" group cursor-pointer"
+      onClick={() => router.push(`/details/${id}`)}
+    >
       <div className=" relative">
         <Image
           src={img}
@@ -114,7 +120,7 @@ const ProductCart = ({
         )}
 
         <div className=" absolute top-0 left-0 w-full h-full bg-[#00000050] opacity-0 transition-opacity duration-500 group-hover:opacity-100 cursor-pointer ">
-          <div className=" absolute bottom-0 mb-4 left-[50%] translate-x-[50%] flex gap-2 ">
+          <div className=" absolute bottom-0 mb-4 sm:left-[15%] md:left-[15%] lg:left-[10%]  translate-x-[50%] flex gap-2 ">
             <div className=" bg-white w-[50px] h-[50px] text-[26px] grid place-items-center ">
               <AiOutlineHeart />
             </div>
