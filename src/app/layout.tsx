@@ -1,8 +1,12 @@
+"use client";
+
 import NavBar from "@/components/NavBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
+import { Provider } from "react-redux";
+import { store } from "../redux/store";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,9 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar />
-        {children}
-        <Footer />
+        <Provider store={store}>
+          <NavBar />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

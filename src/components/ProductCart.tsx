@@ -6,6 +6,8 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
+import { useAppDispatch } from "@/redux/hooks";
+import { addToCart } from "@/redux/features/cartSlice";
 
 export interface additonProduct {
   id: string;
@@ -24,6 +26,9 @@ const ProductCart = ({
 
   sale,
 }: additonProduct) => {
+  const router = useRouter();
+  const dispatch = useAppDispatch();
+
   const getRating = () => {
     const randomNumber = (min: number, max: number) => {
       return Math.ceil(Math.random() * (max - min) + min);
@@ -97,7 +102,17 @@ const ProductCart = ({
     }
   };
 
-  const router = useRouter();
+  const addProductToCart = (e: React.FormEvent) => {
+    e.stopPropagation();
+    const payload = {
+      id,
+      name,
+      img,
+      price,
+      quantity: 1,
+    };
+    dispatch(addToCart(payload));
+  };
 
   return (
     <div
@@ -120,11 +135,14 @@ const ProductCart = ({
         )}
 
         <div className=" absolute top-0 left-0 w-full h-full bg-[#00000050] opacity-0 transition-opacity duration-500 group-hover:opacity-100 cursor-pointer ">
-          <div className=" absolute bottom-0 mb-4 sm:left-[15%] md:left-[15%] lg:left-[10%]  translate-x-[50%] flex gap-2 ">
+          <div className=" absolute bottom-0 mb-4 left-[50%] translate-x-[50%] flex gap-2 ">
             <div className=" bg-white w-[50px] h-[50px] text-[26px] grid place-items-center ">
               <AiOutlineHeart />
             </div>
-            <div className=" bg-white w-[50px] h-[50px] text-[26px] grid place-items-center ">
+            <div
+              className=" bg-white w-[50px] h-[50px] text-[26px] grid place-items-center "
+              onClick={addProductToCart}
+            >
               <AiOutlineShoppingCart />
             </div>
           </div>

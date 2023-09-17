@@ -3,8 +3,10 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
 import React from "react";
 import Link from "next/link";
+import { useAppSelector } from "@/redux/hooks";
 
 const NavBar = () => {
+  const cartcount = useAppSelector((state) => state.cartReducer.length);
   return (
     <div className=" bg-slate-400 py-4 sticky top-0 z-10 ">
       <div className=" container flex justify-between items-center">
@@ -24,7 +26,7 @@ const NavBar = () => {
           <div className=" relative cursor-pointer">
             <AiOutlineShoppingCart className=" text-[23px]" />
             <div className="absolute top-[-10px]  bg-red-600 rounded-full justify-center w-[22px] h-[22px] right-[-10px] text-[15px] text-center grid place-items-center  ">
-              0
+              {cartcount}
             </div>
           </div>
           <BsSearch className="text-[20px]" />
