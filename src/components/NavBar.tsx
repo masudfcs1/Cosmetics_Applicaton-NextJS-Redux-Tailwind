@@ -5,7 +5,7 @@ import React from "react";
 import Link from "next/link";
 import { useAppSelector } from "@/redux/hooks";
 
-const NavBar = () => {
+const NavBar = ({ setShowCart }: any) => {
   const cartcount = useAppSelector((state) => state.cartReducer.length);
   return (
     <div className=" bg-slate-400 py-4 sticky top-0 z-10 ">
@@ -23,7 +23,10 @@ const NavBar = () => {
         </ul>
 
         <div className="flex gap-5 text-[26px]">
-          <div className=" relative cursor-pointer">
+          <div
+            className=" relative cursor-pointer"
+            onClick={() => setShowCart(true)}
+          >
             <AiOutlineShoppingCart className=" text-[23px]" />
             <div className="absolute top-[-10px]  bg-red-600 rounded-full justify-center w-[22px] h-[22px] right-[-10px] text-[15px] text-center grid place-items-center  ">
               {cartcount}
