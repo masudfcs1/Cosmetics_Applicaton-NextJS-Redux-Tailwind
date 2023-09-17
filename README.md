@@ -22,6 +22,12 @@ pnpm dev
 
 ![eco5](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/fabb23f4-5483-4a8c-b43c-59cbb124ffc3)
 
+![eco6](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/8ccbe85b-db40-45aa-bfb6-8d2abaaa3aea)
+
+![eco8](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/1b0d3f2e-6ec9-45f2-ae27-e224a940b531)
+
+![eco7](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/5c072851-744e-41aa-b30f-c7d74c859270)
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
