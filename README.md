@@ -12,6 +12,16 @@ yarn dev
 pnpm dev
 ```
 
+![eco1](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/83781c36-8064-4471-aecd-131a04638c87)
+
+![eco2](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/54fe9250-d834-43e3-9c77-4a6baf8c55a1)
+
+![eco3](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/fda7db7e-bd3d-49f1-b4d1-8f1f352499b1)
+
+![eco4](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/2bf5a4f0-a57a-40be-a7b0-beff119e30d0)
+
+![eco5](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/fabb23f4-5483-4a8c-b43c-59cbb124ffc3)
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -32,4 +42,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # Cosmetics_Applicaton-NextJS-Redux-Tailwind
