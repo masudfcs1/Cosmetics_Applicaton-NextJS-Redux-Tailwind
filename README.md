@@ -27,6 +27,8 @@ npm run dev
 
 ![eco7](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/5c072851-744e-41aa-b30f-c7d74c859270)
 
+![image](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/19f8ae67-1181-4aca-a0ac-a96035f7d60f)
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
