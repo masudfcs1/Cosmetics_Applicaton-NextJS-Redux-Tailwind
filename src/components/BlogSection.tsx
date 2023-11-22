@@ -6,20 +6,20 @@ const data = [
     img: "/blog1.jpg",
     title: " Lorem ipsum dolor sit amet.",
     date: "Aug 15, 2023",
-    comment: 10,
+    comment: 10
   },
   {
     img: "/blog4.jpg",
     title: " Lorem ipsum dolor sit amet.",
     date: "Aug 15, 2023",
-    comment: 6,
+    comment: 6
   },
   {
     img: "/blog3.jpg",
     title: " Lorem ipsum dolor sit amet.",
     date: "Aug 15, 2023",
-    comment: 3,
-  },
+    comment: 3
+  }
 ];
 
 const BlogSection = () => {
@@ -32,13 +32,12 @@ const BlogSection = () => {
       </p>
 
       <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 pt-8">
-        {data.map((item) => (
+        {data.map((item, i) => (
           <BlogCart
-            key={item.date}
+            key={i}
             img={item.img}
             title={item.title}
             date={item.date}
-            comment={item.comment}
           />
         ))}
       </div>

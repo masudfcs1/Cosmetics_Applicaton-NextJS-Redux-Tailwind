@@ -5,10 +5,9 @@ interface blogCart {
   img: string;
   title: string;
   date: string;
-  comment: string;
 }
 
-const BlogCart = ({ img, title, date, comment }: blogCart) => {
+const BlogCart = ({ img, title, date }: blogCart) => {
   return (
     <div className=" space-y-4">
       <img
@@ -21,7 +20,7 @@ const BlogCart = ({ img, title, date, comment }: blogCart) => {
 
       <div className=" text-accent font-medium">
         <span>{date} </span>
-        <span>{comment} </span>
+        {/* <span>{comment} </span> */}
       </div>
       <h3 className=" font-bold text-2xl">{title} </h3>
     </div>

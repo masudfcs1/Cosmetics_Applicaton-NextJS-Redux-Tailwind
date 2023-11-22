@@ -8,6 +8,7 @@ interface propsType {
   name: string;
   price: number;
   quantity: number;
+  number: string;
 }
 
 const CartProduct: React.FC<propsType> = ({
@@ -15,7 +16,7 @@ const CartProduct: React.FC<propsType> = ({
   img,
   name,
   price,
-  quantity,
+  quantity
 }) => {
   const dispatch = useAppDispatch();
 
