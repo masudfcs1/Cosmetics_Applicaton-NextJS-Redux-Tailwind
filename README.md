@@ -1,8 +1,8 @@
 
 ## Cosmetics_Applicaton-NextJS-Redux-Tailwind
 
-# [Live Demo]()
-Live Demo->
+https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/b388029c-2cda-4943-8a6f-c7a581362e44
+
 
 The Cosmetics Application, developed with Next.js, Redux, and Tailwind CSS, epitomizes a powerful and stylish web solution. Next.js ensures optimal performance and SEO, while Redux manages state for seamless data flow. Tailwind CSS's utility-first approach simplifies styling, providing a sleek and responsive design. This tech stack harmoniously combines efficiency, state management, and aesthetic appeal. From browsing product catalogs to user preferences, the Cosmetics Application delivers a seamless and visually captivating experience. The synergy between Next.js, Redux, and Tailwind CSS establishes a modern, scalable, and chic web application, catering to the needs of cosmetic aficionados and beauty enthusiasts with flair.
 
