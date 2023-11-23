@@ -10,7 +10,7 @@ The Cosmetics Application, developed with Next.js, Redux, and Tailwind CSS, epit
 ```bash
 npm run dev
 
-
+```
 
 ![eco1](https://github.com/masudfcs1/Cosmetics_Applicaton-NextJS-Redux-Tailwind/assets/57311382/83781c36-8064-4471-aecd-131a04638c87)
 
